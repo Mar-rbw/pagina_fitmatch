@@ -2,3 +2,7 @@ p{
     font-size: 100px;
     color: rgb(78, 79, 117);
 }
+
+body {
+    position: relative;
+}
