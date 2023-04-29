@@ -6,3 +6,8 @@ p{
 body {
     position: relative;
 }
+
+li.navbar-item {
+    border-right : 1px solid orange;
+    padding: 10px;
+}
