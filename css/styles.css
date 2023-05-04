@@ -1,14 +1,15 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(43, 45, 66);
 }
 
 nav{
-    background-color: rgb(255, 248, 255);
+    /* background-color: rgb(255, 248, 255) */
+    background-color: rgb(216, 0, 50);
 }
 
 p{
     font-size: 12px;
-    color: rgb(78, 79, 117);
+    color: rgb(237, 242, 244);
 }
 
 body {
@@ -17,11 +18,15 @@ body {
 
 li.navbar-item {
     color: green;
-    border-right : 1px solid orange;
+    border-right : 1px solid rgb(141, 153, 174);
     padding: 10px;
 }
-#section7 {
-    color: red;
-    font-size: 20px;
-    /* Agrega más estilos aquí */
-  }
+
+
+img{
+    border-radius:150px
+}
+
+h2{
+    color: rgb(237, 242, 244);
+}
