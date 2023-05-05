@@ -2,9 +2,9 @@
 /* https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d80032 */
 /* Fondos: rgb(43, 45, 66) */
 /* Tipografias: rgb(237, 242, 244) */
-/* Encabezado: rgb(239, 35, 60) */
+/* Encabezado:   rgb(216, 0, 50) */
 /* Detalles o lineas: rgb(141, 153, 174) */
-/* Contornos: rgb(216, 0, 50) */
+/* Contornos: rgb(239, 35, 60) */
 
 body {
     background-color: rgb(43, 45, 66);
@@ -13,7 +13,7 @@ body {
 
 nav{
     /* background-color: rgb(255, 248, 255) */
-    background-color: rgb(239, 35, 60);
+    background-color: rgb(216, 0, 50);
 }
 
 a.nav-link{
