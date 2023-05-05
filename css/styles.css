@@ -24,6 +24,7 @@ a.nav-link{
 p{
     font-size: 12px;
     color: rgb(237, 242, 244);
+    margin: 20px;
 }
 
 li.navbar-item {
@@ -41,6 +42,14 @@ h2{
     color: rgb(237, 242, 244);
 }
 
+h2.cabeza{
+    margin-top: 10px;
+}
+
+h3{
+    color: rgb(237, 242, 244);
+}
+
 button.btn-primary{
     background-color: rgb(239, 35, 60);
     color: rgb(237, 242, 244);
@@ -48,7 +57,9 @@ button.btn-primary{
 }
 
 label.form-label{
-    color: rgb(237, 242, 244)
+    color: rgb(237, 242, 244);
+    font-weight: bold;
+    font-size: 16px;
 }
 
 input.form-control{
@@ -76,4 +87,6 @@ hr.final{
 iframe{
     width: 100%;
     border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
