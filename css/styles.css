@@ -65,3 +65,14 @@ textarea.form-control{
 hr{
     border: 10px solid rgb(216, 0, 50);
 }
+
+hr.final{
+    width: 100%;
+    background-color: rgb(216, 0, 50);
+    margin-bottom: 0px ;
+
+}
+
+iframe{
+    width: 100%;
+}
