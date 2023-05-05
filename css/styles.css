@@ -46,3 +46,22 @@ button.btn-primary{
     color: rgb(237, 242, 244);
     border: 1px solid rgb(141, 153, 174);
 }
+
+label.form-label{
+    color: rgb(237, 242, 244)
+}
+
+input.form-control{
+    border: 2px solid rgb(239, 35, 60);
+    border-radius: 5px;
+
+}
+
+textarea.form-control{
+    border: 2px solid rgb(239, 35, 60);
+    border-radius: 5px;
+}
+
+hr{
+    border: 10px solid rgb(216, 0, 50);
+}
