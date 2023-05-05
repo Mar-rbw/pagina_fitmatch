@@ -16,15 +16,21 @@ nav{
     background-color: rgb(239, 35, 60);
 }
 
+a.nav-link{
+    color: rgb(237, 242, 244);
+    font-weight: bold;
+    font-size: smaller;
+}
+
 p{
     font-size: 12px;
     color: rgb(237, 242, 244);
 }
 
 li.navbar-item {
-    color: green;
     border-right : 1px solid rgb(141, 153, 174);
     padding: 10px;
+    border-radius: 2px;
 }
 
 
