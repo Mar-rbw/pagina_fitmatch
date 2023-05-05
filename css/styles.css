@@ -34,8 +34,13 @@ li.navbar-item {
 }
 
 
-img{
+img.logo{
     border-radius:150px
+}
+
+img.presentacion{
+    border-radius: 0;
+    padding: 20px;
 }
 
 h2{
