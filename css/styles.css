@@ -46,6 +46,7 @@ img.presentacion{
 
 h2{
     color: rgb(237, 242, 244);
+    font-weight: bold;
 }
 
 h2.cabeza{
@@ -54,6 +55,7 @@ h2.cabeza{
 
 h3{
     color: rgb(237, 242, 244);
+    font-weight: bold;
 }
 
 button.btn-primary{
