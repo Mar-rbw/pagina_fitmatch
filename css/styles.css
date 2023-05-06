@@ -1,13 +1,13 @@
 /* Fuente de paletas de colores */
 /* https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d80032 */
-/* Fondos: rgb(43, 45, 66) */
-/* Tipografias: rgb(237, 242, 244) */
+/* Tipografia p: rgb(43, 45, 66) */
+/* Fondo : rgb(237, 242, 244) */
 /* Encabezado:   rgb(216, 0, 50) */
 /* Bordes: rgb(141, 153, 174) */
 /* Contornos: rgb(239, 35, 60) */
 
 body {
-    background-color: rgb(43, 45, 66);
+    background-color: #fbfbfd;
     position: relative;
 }
 
@@ -16,14 +16,14 @@ nav{
 }
 
 a.nav-link{
-    color: rgb(237, 242, 244);
+    color: rgb(44,44,44);
     font-weight: bold;
     font-size: smaller;
 }
 
 p{
     font-size: 12px;
-    color: rgb(237, 242, 244);
+    color: rgb(44,44,44);
     margin: 20px;
 }
 
@@ -45,7 +45,7 @@ img.presentacion{
 
 
 h2{
-    color: rgb(237, 242, 244);
+    color: rgb(239, 35, 60);
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ h2.cabeza{
 }
 
 h3{
-    color: rgb(237, 242, 244);
+    color: rgb(239, 35, 60);
     font-weight: bold;
 }
 
@@ -65,7 +65,7 @@ button.btn-primary{
 }
 
 label.form-label{
-    color: rgb(237, 242, 244);
+    color: rgb(239, 35, 60);
     font-weight: bold;
     font-size: 16px;
 }
@@ -81,20 +81,14 @@ textarea.form-control{
     border-radius: 5px;
 }
 
-hr{
-    border: 10px solid rgb(216, 0, 50);
-}
-
-hr.final{
-    width: 100%;
-    background-color: rgb(216, 0, 50);
-    margin-bottom: 0px ;
-
-}
-
 iframe{
     width: 100%;
     border-radius: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+hr{
+    border: 10px transparent #fbfbfd;
+    background-color: #fbfbfd;
 }
