@@ -27,10 +27,6 @@ p{
     margin: 20px;
 }
 
-p.footer{
-    font-size: 20px;
-}
-
 div.footer{
     margin: 0px;
 }
@@ -119,14 +115,18 @@ hr{
     background-color: #fbfbfd;
 }
 
-footer{
+footer {
     background-color: rgb(216, 0, 50);
     margin-left: 0px;
+    text-align: left;
 }
 
-
-i.bi{
-    width: 500px;
+i.bi {
+    width: 0;
     color: #f2f2f2;
-    margin-right: 10px
+    margin: 10px 10px 10px 0;
+}
+
+.icono{
+    margin-right: 10px;
 }
