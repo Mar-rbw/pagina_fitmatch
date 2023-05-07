@@ -27,6 +27,10 @@ p{
     margin: 20px;
 }
 
+p.footer{
+    font-size: 20px;
+}
+
 div.footer{
     margin: 0px;
 }
@@ -45,8 +49,9 @@ img.logo{
 div.presentacion{
     background-image: url('/kettlebell-3293481_1280.jpg');
     height: 500px;
+    background-position: center;
     background-size: cover;
-    position: relative;
+    position: relative
 }
 
 div.sobre{
@@ -121,12 +126,9 @@ footer {
     text-align: left;
 }
 
-i.bi {
-    width: 0;
-    color: #f2f2f2;
-    margin: 10px 10px 10px 0;
-}
 
-.icono{
-    margin-right: 10px;
+i.bi{
+    width: 500px;
+    color: #f2f2f2;
+    margin-right: 10px
 }
