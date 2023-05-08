@@ -22,9 +22,10 @@ a.nav-link{
 }
 
 p{
-    font-size: 12px;
+    font-size: 16px;
     color: #161616;
     margin: 20px;
+    font-weight: 200px;
 }
 
 p.footer{
@@ -134,4 +135,18 @@ i.bi{
     font-size: 25px;
     color: #f2f2f2;
 
+}
+
+img.run{
+    width: 520px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+}
+
+img.calentamiento{
+    width: 520px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
 }
