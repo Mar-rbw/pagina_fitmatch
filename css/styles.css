@@ -169,3 +169,7 @@ img.mark{
     align-items: center;
 }
 
+
+button.accordion-button{
+    color:rgb(216, 0, 50)
+}
