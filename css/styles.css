@@ -49,10 +49,10 @@ img.logo{
 
 div.presentacion{
     background-image: url('/kettlebell-3293481_1280.jpg');
-    height: 500px;
+    height: 500pt;
     background-position: center;
     background-size: cover;
-    position: relative
+    position: relative;   
 }
 
 div.sobre{
