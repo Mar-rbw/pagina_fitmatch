@@ -157,10 +157,10 @@ img.calentamiento{
     background-size: cover;
 }
 
-div.carousel{
-    width: 300px;
-    height: 250px;
+#division{
+    border-right: 1px solid rgba(141, 153, 174,0.3)  ;
 }
+
 
 img.mark{
     width: 200px;
