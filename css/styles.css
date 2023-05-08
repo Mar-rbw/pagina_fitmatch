@@ -28,6 +28,12 @@ p{
     font-weight: 200px;
 }
 
+p.lead{
+    color: #f2f2f2;
+    font-size: 20px;
+    
+}
+
 p.footer{
     font-size: 20px;
 }
@@ -68,7 +74,7 @@ div.redes{
     margin: 0px;
 }
 
-h2{
+h2,h1{
     color: rgb(216, 0, 50);
     font-weight: bold;
 }
@@ -156,6 +162,10 @@ div.carousel{
     height: 250px;
 }
 
-.carousel-control-prev-icon,.carousel-control-next-icon{
-    filter: invert(100%);
+img.mark{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(239, 35, 60);
+    align-items: center;
 }
+
