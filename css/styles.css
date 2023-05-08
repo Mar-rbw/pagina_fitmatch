@@ -150,3 +150,12 @@ img.calentamiento{
     background-position: center;
     background-size: cover;
 }
+
+div.carousel{
+    width: 300px;
+    height: 250px;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    filter: invert(100%);
+}
