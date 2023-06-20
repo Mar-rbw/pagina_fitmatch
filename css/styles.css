@@ -187,3 +187,19 @@ img.mark{
 button.accordion-button{
     color:rgb(216, 0, 50)
 }
+
+#Select1,#Select2,#Select3 {
+    border: 2px solid rgb(239, 35, 60);
+}
+
+.gen {
+    font-size: 17px;
+}
+
+#customRadio2{
+    padding-right: 19px;
+}
+
+#customRadio3{
+    padding-right: 25px;
+}
