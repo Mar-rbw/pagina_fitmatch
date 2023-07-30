@@ -203,3 +203,77 @@ button.accordion-button{
 #customRadio3{
     padding-right: 25px;
 }
+
+/* Estilos para el modo normal */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+  
+  /* Estilos para el modo nocturno */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode p {
+    color: #ffffff;
+}
+
+body.dark-mode input {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+body.dark-mode textarea {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+
+body.dark-mode .accordion-button {
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
+  
+body.dark-mode .accordion-button::after {
+    color: #ffffff;
+}
+  
+  /* Estilos para los elementos select y option en modo nocturno */
+body.dark-mode select,
+body.dark-mode option {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Estilo para el tamaño de fuente normal */
+body.normal-font, body.normal-font * {
+    font-size: 16px;
+}
+  
+  /* Estilo para el tamaño de fuente medio */
+body.medium-font, body.medium-font * {
+    font-size: 20px;
+}
+  
+  /* Estilo para el tamaño de fuente grande */
+body.large-font, body.large-font * {
+    font-size: 24px;
+}
+
+body.dark-mode #panelsStayOpen-collapseOne {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+
+

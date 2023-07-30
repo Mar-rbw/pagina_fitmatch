@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>FitBro</title>
 </head>
-<body class="scrollspy" data-bs-spy="scroll">
+<body class="scrollspy light-mode" data-bs-spy="scroll">
     <!--Inicio Barra de navegación -->
     <!-- https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <!-- Usar Scrollspy: https://getbootstrap.com/docs/5.0/components/scrollspy/#item-3-1 -->
@@ -25,11 +25,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul  class="navbar-nav ms-auto">
                     <li class="navbar-item" >
-                        <button type="button" class="btn" id="up-nav"><i class="bi bi-plus"></i></button>
+                        <div class="mode-toggle">
+                            <button type="button" class="btn" id="up-nav"><i class="bi bi-plus" data-value="0"></i></button>
+                        </div>
                     </li>
                     <li class="navbar-item" >
-                        <button type="button" class="btn" id="up-nav"><i class="bi bi-sun-fill"></i></button>
-                        <button type="button" class="btn" id="up-nav"><i class="bi bi-brightness-high"></i></button>
+                        <div class="mode-toggle">
+                            <button type="button" class="btn" id="btn-sun"><i class="bi bi-sun-fill"></i></button>
+                            <button type="button" class="btn" id="btn-moon"><i class="bi bi-brightness-high"></i></button>
+                        </div>
                     </li>
                     <li class="navbar-item"> 
                         <a class="nav-link" href="#section1" data-bs-target="#section1">Servicios</a>
@@ -248,7 +252,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="name" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" id="name" placeholder="Ingresa tu apellido">
+                                <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
                             </div>
                             <div class="row">
                                 <div class="col-4"></div>
@@ -281,17 +285,19 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 mb-3">
-                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-md" id = "Select1">
-                                        <option selected>Región</option>
-                                        <option value="1">Tarapaca</option>
-                                        <option value="2">Antofagasta</option>
-                                        <option value="3">Atacama</option>
-                                        <option value="4">Otros</option>
+                                    <label for="region" class="form-label">Región</label>
+                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-md" id = "Select1" required>
+                                        <option value="" disabled selected>Región</option>
+                                        <option value="Tarapaca">Tarapaca</option>
+                                        <option value="Antofagasta">Antofagasta</option>
+                                        <option value="Atacama">Atacama</option>
+                                        <option value="Otros">Otros</option>
                                     </select>                                  
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-md " id = "Select2">
-                                        <option selected>Comuna</option>
+                                    <label for="comuna" class="form-label">Comuna</label>
+                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-md " id = "Select2" required>
+                                        <option value="" disabled selected>Comuna</option>
                                         <option value="1">Copiapo</option>
                                         <option value="2">Caldera</option>
                                         <option value="3">Tierra Amarilla</option>
@@ -307,18 +313,21 @@
                                 <label for="phone" class="form-label">Teléfono</label>
                                 <input type="phone" class="form-control" id="phone" placeholder="+56912345678">
                             </div>
-                            <select class="form-select form-select-md mb-3" aria-label=".form-select-md " id = "Select3">
-                                <option selected>Asunto</option>
-                                <option value="1">Copiapo</option>
-                                <option value="2">Caldera</option>
-                                <option value="3">Tierra Amarilla</option>
-                                <option value="4">Otros</option>
-                            </select>         
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <select class="form-select form-select-md mb-3" aria-label=".form-select-md " id = "Select3">
+                                    <option value="" disabled selected>Asunto</option>
+                                    <option value="Comentario">Comentario</option>
+                                    <option value="Reportar error">Reportar error</option>
+                                    <option value="Reclamo">Reclamo</option>
+                                    <option value="Otros">Otros</option>
+                                </select>         
+                            </div>
                             <div class="mb-3">
                                 <label for="content" class="form-label">Contenido</label>
                                 <textarea class="form-control" id="content" cols="30" rows="10"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" id="btn" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
                 <div class="col-1"></div>
@@ -327,6 +336,39 @@
     </section>
     <hr>
     <!-- Fin bloque Section6 -->
+    <section id="section8">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 text-center">
+                    <h2>Datos Almacenados</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Género</th>
+                                    <th>Dirección</th>
+                                    <th>Número</th>
+                                    <th>Región</th>
+                                    <th>Comuna</th>
+                                    <th>Correo</th>
+                                    <th>Teléfono</th>
+                                    <th>Asunto</th>
+                                    <th>Contenido</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tablaDatos">
+                                <!-- Aquí se mostrarán los datos almacenados -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
     <!--Inicio Zona video -->
     <section id="section7">
         <div class="container">
